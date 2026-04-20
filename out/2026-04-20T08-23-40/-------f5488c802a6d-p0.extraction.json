@@ -1,0 +1,137 @@
+{
+  "sheet": {
+    "kind": "architect_floor",
+    "number": "א-03",
+    "title_he": "תוכנית קומה א",
+    "title_en": "Floor A Plan",
+    "project_name": "מבנה מגורים דו משפחתי",
+    "designer": "א.ב. תכנון והנדסה",
+    "date": "2023-10-26",
+    "scale": "1:100",
+    "revision": "0"
+  },
+  "surfaces": [
+    {
+      "id": "balcony-1",
+      "label_he": "מרפסת מרוצפת",
+      "kind": "balcony",
+      "dimensions": {
+        "length_m": 4.49,
+        "width_m": 2.9,
+        "area_m2": 13.02
+      },
+      "slope_percent": 1.5,
+      "elevation_m": 3.03,
+      "confidence": "high",
+      "notes_he": [
+        "לא מקורה",
+        "פרגולה מבטון מעל",
+        "מעקה זכוכית תקני"
+      ]
+    },
+    {
+      "id": "pergola-1",
+      "label_he": "פרגולה מקורה חלקית",
+      "kind": "balcony",
+      "dimensions": {
+        "length_m": 5,
+        "width_m": 2,
+        "area_m2": 10
+      },
+      "slope_percent": 0,
+      "elevation_m": 2.95,
+      "confidence": "high",
+      "notes_he": []
+    },
+    {
+      "id": "balcony-2",
+      "label_he": "יציאה מחדר שינה",
+      "kind": "balcony",
+      "dimensions": {
+        "length_m": 3.26,
+        "width_m": 1.1,
+        "area_m2": 3.59
+      },
+      "slope_percent": 0,
+      "elevation_m": 3.13,
+      "confidence": "medium",
+      "notes_he": []
+    },
+    {
+      "id": "entrance-1",
+      "label_he": "כניסה",
+      "kind": "balcony",
+      "dimensions": {
+        "length_m": 1.7,
+        "width_m": 1.5,
+        "area_m2": 2.55
+      },
+      "slope_percent": 0,
+      "elevation_m": 3.58,
+      "confidence": "medium",
+      "notes_he": []
+    }
+  ],
+  "penetrations": [
+    {
+      "surface_id": "balcony-1",
+      "kind": "drain",
+      "count": 1,
+      "location_desc_he": "בפינה הדרום-מזרחית של המרפסת"
+    }
+  ],
+  "rooms": [
+    {
+      "label_he": "חלל כפול"
+    },
+    {
+      "label_he": "מטבח"
+    },
+    {
+      "label_he": "פינת אוכל"
+    },
+    {
+      "label_he": "חדר הורים"
+    },
+    {
+      "label_he": "חדר ארונות"
+    },
+    {
+      "label_he": "אמבטיה הורים"
+    },
+    {
+      "label_he": "מחסן"
+    },
+    {
+      "label_he": "חדר כביסה"
+    },
+    {
+      "label_he": "חדר שינה"
+    },
+    {
+      "label_he": "אמבטיה כללית"
+    },
+    {
+      "label_he": "ממ\"ד"
+    }
+  ],
+  "notes": {
+    "structural": [
+      "פרגולה חורגת מקו בנין עד 40%",
+      "קו בנין = 5 מטר",
+      "5*40%=2.0"
+    ],
+    "waterproofing": [
+      "קיימים שני צינורות מי גשם (צמ\"ג) בקירות החיצוניים."
+    ]
+  },
+  "materials": {},
+  "meta": {
+    "source_pdf": "קומה א.pdf",
+    "page_index": 0,
+    "extraction_model": "gemini-2.5-pro",
+    "native_text_available": false,
+    "extracted_at": "2026-04-20T08:26:47.444Z",
+    "prompt_version": "v1"
+  }
+}

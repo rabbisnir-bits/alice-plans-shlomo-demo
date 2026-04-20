@@ -1,0 +1,26 @@
+[
+  {
+    "surface_id": "floor_1",
+    "surface_label_he": "קומת קרקע",
+    "inputs": {
+      "area_m2": 0,
+      "perimeter_m": 0,
+      "coat_count": 2,
+      "roll_length_m": 10,
+      "edge_strip_width_m": 0.5,
+      "penetration_count": 7
+    },
+    "computed": {
+      "main_field_rolls": 0,
+      "edge_reinforcement_rolls": 0,
+      "penetration_collars": 7
+    },
+    "line_items_he": [
+      {
+        "description": "קוביות איטום לחיבורי צנרת וניקוזים",
+        "qty": 7,
+        "unit": "unit"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "plan_set_id": "2026-04-20T08-23-40",
+  "created_at": "2026-04-20T08:23:40.000Z",
+  "source_pdfs": [
+    "גגות.pdf",
+    "קרקע.pdf",
+    "קומה א.pdf"
+  ],
+  "sheets": [
+    {
+      "pdf": "גגות.pdf",
+      "json": "-----e35b65c6d90f-p0.extraction.json",
+      "bom": "-----e35b65c6d90f-p0.bom.json",
+      "pngs": ["גגות-e35b65c6d90f/page-1.png"]
+    },
+    {
+      "pdf": "קרקע.pdf",
+      "json": "-----583b9c3decf2-p0.extraction.json",
+      "bom": "-----583b9c3decf2-p0.bom.json",
+      "pngs": ["קרקע-583b9c3decf2/page-1.png"]
+    },
+    {
+      "pdf": "קומה א.pdf",
+      "json": "-------f5488c802a6d-p0.extraction.json",
+      "bom": "-------f5488c802a6d-p0.bom.json",
+      "pngs": ["קומה-א-f5488c802a6d/page-1.png"]
+    }
+  ]
+}

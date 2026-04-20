@@ -1,0 +1,145 @@
+[
+  {
+    "surface_id": "tiled_roof",
+    "surface_label_he": "גג רעפים",
+    "inputs": {
+      "area_m2": 82.7,
+      "perimeter_m": 0,
+      "coat_count": 2,
+      "roll_length_m": 10,
+      "edge_strip_width_m": 0.5,
+      "penetration_count": 2
+    },
+    "computed": {
+      "main_field_rolls": 17,
+      "edge_reinforcement_rolls": 0,
+      "penetration_collars": 2
+    },
+    "line_items_he": [
+      {
+        "description": "יריעות 4 מ\"מ — שכבה ראשית (2 שכבות)",
+        "qty": 17,
+        "unit": "roll"
+      },
+      {
+        "description": "קוביות איטום לחיבורי צנרת וניקוזים",
+        "qty": 2,
+        "unit": "unit"
+      }
+    ]
+  },
+  {
+    "surface_id": "mamad_roof",
+    "surface_label_he": "גג ממ\"ד",
+    "inputs": {
+      "area_m2": 0,
+      "perimeter_m": 0,
+      "coat_count": 2,
+      "roll_length_m": 10,
+      "edge_strip_width_m": 0.5,
+      "penetration_count": 1
+    },
+    "computed": {
+      "main_field_rolls": 0,
+      "edge_reinforcement_rolls": 0,
+      "penetration_collars": 1
+    },
+    "line_items_he": [
+      {
+        "description": "קוביות איטום לחיבורי צנרת וניקוזים",
+        "qty": 1,
+        "unit": "unit"
+      }
+    ]
+  },
+  {
+    "surface_id": "concrete_roof_1",
+    "surface_label_he": "גג בטון",
+    "inputs": {
+      "area_m2": 0,
+      "perimeter_m": 0,
+      "coat_count": 2,
+      "roll_length_m": 10,
+      "edge_strip_width_m": 0.5,
+      "penetration_count": 0
+    },
+    "computed": {
+      "main_field_rolls": 0,
+      "edge_reinforcement_rolls": 0,
+      "penetration_collars": 0
+    },
+    "line_items_he": []
+  },
+  {
+    "surface_id": "uncovered_balcony",
+    "surface_label_he": "מרפסת לא מקורה",
+    "inputs": {
+      "area_m2": 0,
+      "perimeter_m": 0,
+      "coat_count": 2,
+      "roll_length_m": 10,
+      "edge_strip_width_m": 0.5,
+      "penetration_count": 0
+    },
+    "computed": {
+      "main_field_rolls": 0,
+      "edge_reinforcement_rolls": 0,
+      "penetration_collars": 0
+    },
+    "line_items_he": []
+  },
+  {
+    "surface_id": "balcony_1",
+    "surface_label_he": "מרפסת",
+    "inputs": {
+      "area_m2": 0,
+      "perimeter_m": 0,
+      "coat_count": 2,
+      "roll_length_m": 10,
+      "edge_strip_width_m": 0.5,
+      "penetration_count": 0
+    },
+    "computed": {
+      "main_field_rolls": 0,
+      "edge_reinforcement_rolls": 0,
+      "penetration_collars": 0
+    },
+    "line_items_he": []
+  },
+  {
+    "surface_id": "storage_roof",
+    "surface_label_he": "גג מחסן",
+    "inputs": {
+      "area_m2": 0,
+      "perimeter_m": 0,
+      "coat_count": 2,
+      "roll_length_m": 10,
+      "edge_strip_width_m": 0.5,
+      "penetration_count": 0
+    },
+    "computed": {
+      "main_field_rolls": 0,
+      "edge_reinforcement_rolls": 0,
+      "penetration_collars": 0
+    },
+    "line_items_he": []
+  },
+  {
+    "surface_id": "canopy_roof",
+    "surface_label_he": "גגון",
+    "inputs": {
+      "area_m2": 0,
+      "perimeter_m": 0,
+      "coat_count": 2,
+      "roll_length_m": 10,
+      "edge_strip_width_m": 0.5,
+      "penetration_count": 0
+    },
+    "computed": {
+      "main_field_rolls": 0,
+      "edge_reinforcement_rolls": 0,
+      "penetration_collars": 0
+    },
+    "line_items_he": []
+  }
+]

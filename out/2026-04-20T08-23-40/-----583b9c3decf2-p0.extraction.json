@@ -1,0 +1,77 @@
+{
+  "sheet": {
+    "kind": "architect_floor",
+    "number": "null",
+    "title_he": "תוכנית קומת קרקע",
+    "title_en": "Ground Floor Plan",
+    "project_name": "null",
+    "designer": "null",
+    "date": "null",
+    "scale": "1:100",
+    "revision": "null"
+  },
+  "surfaces": [
+    {
+      "id": "floor_1",
+      "label_he": "קומת קרקע",
+      "kind": "floor",
+      "dimensions": {},
+      "elevation_m": 0,
+      "confidence": "high"
+    }
+  ],
+  "penetrations": [
+    {
+      "surface_id": "floor_1",
+      "kind": "drain",
+      "count": 1,
+      "location_desc_he": "ממ\"ד"
+    },
+    {
+      "surface_id": "floor_1",
+      "kind": "pipe",
+      "count": 6,
+      "location_desc_he": "מטבח, חדרי רחצה ושירותים"
+    }
+  ],
+  "rooms": [
+    {
+      "label_he": "סלון"
+    },
+    {
+      "label_he": "פינת אוכל"
+    },
+    {
+      "label_he": "מטבח"
+    },
+    {
+      "label_he": "ממ\"ד"
+    },
+    {
+      "label_he": "חדר משפחה"
+    },
+    {
+      "label_he": "חדר שינה"
+    },
+    {
+      "label_he": "חדר רחצה"
+    },
+    {
+      "label_he": "שירותים"
+    }
+  ],
+  "notes": {
+    "waterproofing": [
+      "רצפת ממ\"ד 'יבשה' עפ\"י הנחיות יועץ איטום"
+    ]
+  },
+  "materials": {},
+  "meta": {
+    "source_pdf": "קרקע.pdf",
+    "page_index": 0,
+    "extraction_model": "gemini-2.5-pro",
+    "native_text_available": false,
+    "extracted_at": "2026-04-20T08:25:48.714Z",
+    "prompt_version": "v1"
+  }
+}

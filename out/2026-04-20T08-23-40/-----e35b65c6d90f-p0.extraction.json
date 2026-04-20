@@ -1,0 +1,142 @@
+{
+  "sheet": {
+    "kind": "architect_roof",
+    "number": "",
+    "title_he": "תוכנית גגות",
+    "title_en": "Roofs Plan",
+    "project_name": "",
+    "designer": "",
+    "date": "",
+    "scale": "1:100",
+    "revision": ""
+  },
+  "surfaces": [
+    {
+      "id": "tiled_roof",
+      "label_he": "גג רעפים",
+      "kind": "roof",
+      "dimensions": {
+        "area_m2": 82.7
+      },
+      "slope_percent": 45,
+      "elevation_m": 9.5,
+      "confidence": "high",
+      "notes_he": []
+    },
+    {
+      "id": "mamad_roof",
+      "label_he": "גג ממ\"ד",
+      "kind": "roof",
+      "dimensions": {},
+      "slope_percent": 1.5,
+      "elevation_m": 7.45,
+      "confidence": "high",
+      "notes_he": []
+    },
+    {
+      "id": "concrete_roof_1",
+      "label_he": "גג בטון",
+      "kind": "roof",
+      "dimensions": {},
+      "slope_percent": 1.5,
+      "elevation_m": 2.95,
+      "confidence": "high",
+      "notes_he": []
+    },
+    {
+      "id": "uncovered_balcony",
+      "label_he": "מרפסת לא מקורה",
+      "kind": "balcony",
+      "dimensions": {},
+      "slope_percent": 1.5,
+      "elevation_m": 3.13,
+      "confidence": "high",
+      "notes_he": []
+    },
+    {
+      "id": "balcony_1",
+      "label_he": "מרפסת",
+      "kind": "balcony",
+      "dimensions": {},
+      "slope_percent": 1.5,
+      "elevation_m": 3.46,
+      "confidence": "high",
+      "notes_he": []
+    },
+    {
+      "id": "storage_roof",
+      "label_he": "גג מחסן",
+      "kind": "roof",
+      "dimensions": {},
+      "slope_percent": 1.5,
+      "elevation_m": 1.8,
+      "confidence": "high",
+      "notes_he": []
+    },
+    {
+      "id": "canopy_roof",
+      "label_he": "גגון",
+      "kind": "roof",
+      "dimensions": {},
+      "slope_percent": 1.5,
+      "elevation_m": 2.1,
+      "confidence": "high",
+      "notes_he": []
+    }
+  ],
+  "penetrations": [
+    {
+      "surface_id": "tiled_roof",
+      "kind": "skylight",
+      "count": 1,
+      "location_desc_he": "קולטי שמש"
+    },
+    {
+      "surface_id": "tiled_roof",
+      "kind": "pipe",
+      "count": 1,
+      "location_desc_he": "רור שמש"
+    },
+    {
+      "surface_id": "mamad_roof",
+      "kind": "pipe",
+      "count": 1,
+      "location_desc_he": "צינור 4\""
+    }
+  ],
+  "rooms": [
+    {
+      "label_he": "ממ\"ד"
+    },
+    {
+      "label_he": "מדרגות"
+    },
+    {
+      "label_he": "מחסן"
+    }
+  ],
+  "notes": {
+    "structural": [],
+    "waterproofing": [],
+    "curing": [],
+    "safety": [],
+    "logistics": [],
+    "other": [
+      "קו בנין בחריגה של 30%"
+    ]
+  },
+  "materials": {
+    "concrete_grade": "",
+    "rebar_spec": "",
+    "cover_depth_cm": 0,
+    "fire_resistance_minutes": 0
+  },
+  "meta": {
+    "source_pdf": "גגות.pdf",
+    "page_index": 0,
+    "extraction_model": "gemini-2.5-pro",
+    "native_text_available": false,
+    "extracted_at": "2026-04-20T08:24:58.163Z",
+    "prompt_version": "v1"
+  }
+}

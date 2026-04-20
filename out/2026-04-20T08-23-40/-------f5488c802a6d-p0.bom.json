@@ -1,0 +1,103 @@
+[
+  {
+    "surface_id": "balcony-1",
+    "surface_label_he": "מרפסת מרוצפת",
+    "inputs": {
+      "area_m2": 13.02,
+      "perimeter_m": 0,
+      "coat_count": 2,
+      "roll_length_m": 10,
+      "edge_strip_width_m": 0.5,
+      "penetration_count": 1
+    },
+    "computed": {
+      "main_field_rolls": 3,
+      "edge_reinforcement_rolls": 0,
+      "penetration_collars": 1
+    },
+    "line_items_he": [
+      {
+        "description": "יריעות 4 מ\"מ — שכבה ראשית (2 שכבות)",
+        "qty": 3,
+        "unit": "roll"
+      },
+      {
+        "description": "קוביות איטום לחיבורי צנרת וניקוזים",
+        "qty": 1,
+        "unit": "unit"
+      }
+    ]
+  },
+  {
+    "surface_id": "pergola-1",
+    "surface_label_he": "פרגולה מקורה חלקית",
+    "inputs": {
+      "area_m2": 10,
+      "perimeter_m": 0,
+      "coat_count": 2,
+      "roll_length_m": 10,
+      "edge_strip_width_m": 0.5,
+      "penetration_count": 0
+    },
+    "computed": {
+      "main_field_rolls": 2,
+      "edge_reinforcement_rolls": 0,
+      "penetration_collars": 0
+    },
+    "line_items_he": [
+      {
+        "description": "יריעות 4 מ\"מ — שכבה ראשית (2 שכבות)",
+        "qty": 2,
+        "unit": "roll"
+      }
+    ]
+  },
+  {
+    "surface_id": "balcony-2",
+    "surface_label_he": "יציאה מחדר שינה",
+    "inputs": {
+      "area_m2": 3.59,
+      "perimeter_m": 0,
+      "coat_count": 2,
+      "roll_length_m": 10,
+      "edge_strip_width_m": 0.5,
+      "penetration_count": 0
+    },
+    "computed": {
+      "main_field_rolls": 1,
+      "edge_reinforcement_rolls": 0,
+      "penetration_collars": 0
+    },
+    "line_items_he": [
+      {
+        "description": "יריעות 4 מ\"מ — שכבה ראשית (2 שכבות)",
+        "qty": 1,
+        "unit": "roll"
+      }
+    ]
+  },
+  {
+    "surface_id": "entrance-1",
+    "surface_label_he": "כניסה",
+    "inputs": {
+      "area_m2": 2.55,
+      "perimeter_m": 0,
+      "coat_count": 2,
+      "roll_length_m": 10,
+      "edge_strip_width_m": 0.5,
+      "penetration_count": 0
+    },
+    "computed": {
+      "main_field_rolls": 1,
+      "edge_reinforcement_rolls": 0,
+      "penetration_collars": 0
+    },
+    "line_items_he": [
+      {
+        "description": "יריעות 4 מ\"מ — שכבה ראשית (2 שכבות)",
+        "qty": 1,
+        "unit": "roll"
+      }
+    ]
+  }
+]
